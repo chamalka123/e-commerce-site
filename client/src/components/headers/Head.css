@@ -1,0 +1,37 @@
+.nav-container{
+    padding: 14px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #0516ac;
+    text-decoration: none;
+    width: 100%;
+}
+ 
+.nav-brand{
+    color: palevioletred;
+    margin: 0 2.75%;
+    padding-right: 50%;
+    background-color: #0516ac;
+}
+
+.nav-item{
+    color: #f3f3f3;
+    cursor: pointer;
+    margin: 0 15px;
+    text-decoration: none;
+    background-color: #0516ac;
+}
+
+.nav-item:hover{
+    color: palevioletred;
+}
+
+@media (max-width: 992px) {
+    .nav-brand{
+        padding-right: 10px;
+    }
+    .nav-container{
+        flex-direction: column;
+    }
+}
